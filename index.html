@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stars, Scars, and Everything In Between</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 40px; }
-    img { max-width: 300px; border-radius: 12px; }
-    button {
-      background: #222; color: #fff; padding: 12px 24px;
-      border: none; border-radius: 8px; cursor: pointer;
-      margin-top: 20px; font-size: 16px;
-    }
-    button:hover { background: #444; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Stars, Scars, and Everything In Between</h1>
-  <h3>A poetry collection about heartbreak, healing, identity, and peace</h3>
+  <div class="container">
+    <h1>Stars, Scars, and Everything In Between</h1>
+    <h3>A poetry collection about heartbreak, healing, identity, and peace</h3>
 
-  <img src="  BookCover.jpg" alt="Book Cover">
+    <img src="cover.jpg" alt="Book Cover" class="book-cover">
 
-  <p>
-    A deeply personal journey told in 90+ poems exploring love, loss, rage, guilt, healing, and self-discovery.
-  </p>
- <p class="price">📖 Price: 100 LE</p>
+    <p class="description">
+      A deeply personal journey told in 90+ poems exploring love, loss, rage, guilt, healing, and self-discovery.
+    </p>
 
-  <a href="https://wa.me/201060676156?text=Hi!%20I%20want%20to%20order%20your%20book">
-    <button>Order Now on WhatsApp</button>
-  </a>
+    <p class="price">📖 Price: <strong>100 LE</strong></p>
 
-  <p>💫 Thank you for supporting my poetry.</p>
+    <a href="https://wa.me/201234567890?text=Hi!%20I%20want%20to%20order%20your%20book" target="_blank">
+      <button class="whatsapp-btn">📲 Order Now on WhatsApp</button>
+    </a>
+
+    <div class="details">
+      <h3>What You’ll Get:</h3>
+      <ul>
+        <li>✨ A beautifully printed paperback copy</li>
+        <li>🖋 Signed message (limited first 50 orders)</li>
+        <li>🚚 Delivery available across Egypt</li>
+      </ul>
+    </div>
+
+    <footer>
+      💫 Thank you for supporting my poetry.
+    </footer>
+  </div>
 </body>
 </html>
